@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #reading image
-img = cv2.imread('Jigun.jpg')
+img = cv2.imread('Jigun.jpg') #You should to input your picture name
 
 #Edges
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
